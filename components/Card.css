@@ -1,0 +1,66 @@
+.card {
+    border: 1px solid #000;
+    text-align: center;
+    width: 500px;
+    box-shadow: 0 0 30px #a46868;
+  height: fit-content;
+    /* min-height: 753px; */
+    margin-top: 20px;
+    border-radius: 30px;
+    background: #fffefe;
+   
+  }
+  .cardImage {
+    padding: 5px;
+    border-bottom: 2px solid #000;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+     height: fit-content;
+    min-height: 300px;
+  }
+  .cardTitle {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 10px;
+    font-size: 30px;
+    height: fit-content;
+    min-height: 100px;
+  }
+  .cardCategory {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    /* font-style: italic; */
+    height: fit-content;
+    min-height: 20px;
+  }
+  .cardDescription {
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    height: fit-content;
+    min-height: 50px;
+  }
+  .cardPrice {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    height: fit-content;
+    min-height: 35px;
+  }
+  .cardAddToCart {
+    border: 1px solid #a46868;
+    background: #a46868;
+    height: fit-content;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 28px 28px;
+    margin: 0%;
+    padding: 0%;}
+    
