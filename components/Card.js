@@ -13,24 +13,30 @@ const Card = ({ image, title, category, description, price, rating, lastButton, 
                 {title}
             </div>
             <div className="cardCategory">
-                {category}
+                <a href="#"> <button className="cardCategoryBtn">
+                    {category}
+                </button></a>
             </div>
             <div className="cardDescription">
-                {description}.....<span>See more</span>
+                {description}.....<a href="#"><span>See more</span></a>
             </div>
             <div className="cardPrice">
-                {price} $
+             <button className="cardPriceBtn">
+             {price} $
+             </button>
             </div>
             <div className="cardRatingStar">
                 <img src={reviewPic} width={100} alt="Pic" />
             </div>
             <div className="cardRatingCount">
-                {rating}
+                {rating}+ Reviews
             </div>
             <div className="cardAddToCart">
-                <span>
-                    {lastButton}
-                </span>
+                <a href="#">
+                    <button className="cardAddToCartBtn">
+                        {lastButton}
+                    </button>
+                </a>
             </div>
         </div>
     )
